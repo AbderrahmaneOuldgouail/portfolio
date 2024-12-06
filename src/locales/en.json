@@ -1,0 +1,62 @@
+{
+  "name": "Abderrahmane Ouldgouail",
+  "nav": {
+    "hero": "Home",
+    "portfolio": "Portfolio",
+    "blog": "Blog"
+  },
+  "home" : {
+    "trusted" : "Trusted",
+    "partner" : "Partner",
+    "for" : "For",
+    "your" : "Your",
+    "website" : "Website",
+    "develop" : "Develop",
+    "cta" : "Contact me",
+    "tagline" : "Your Next Big Idea? I'll Code It, Empowering Your Business with Innovative Web Solutions."
+  },
+  "skils" : {
+    "header1" : "My list of",
+    "header2" : "skills",
+    "subheader" : "Discover the key skills that define my expertise and passion for continuous growth and innovation."
+  },
+  "work" : {
+    "header" : "My work",
+    "subheader" : "Here are a few examples of my work.",
+    "cta" : "Start a project"
+  },
+  "about" : {
+    "header" : "About", 
+    "subheader" : "Passionate about creating meaningful digital experiences through cutting-edge web and mobile technologies.",
+    "content1" : "I'm a skilled full-stack web developer with expertise in creating dynamic, user-friendly websites and mobile apps. I thrive on transforming ideas into functional digital experiences.",
+    "content2" : "I love crafting solutions that make an impact, whether it's helping businesses grow or enhancing user experiences. My goal is to design and develop tools that are both practical and inspiring.",
+    "content3" : "When I'm not coding, I'm usually diving into new technologies or honing my skills."
+  },
+  "contact" : {
+    "header" : "Get in Touch",
+    "subheader" : "Feel free to reach out to discuss your project, ask a question, or just say hi. I'd love to hear from you!",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "sendMessage": "Send Message",
+      "success": "Your message has been successfully sent. We will get back to you shortly!",
+      "error": "There was an error sending your message. Please try again later."
+    }
+  },
+  "footer": "All rights reserved.",
+  "toggleTheme": "Toggle theme",
+  "metadata": {
+    "title": "Abderrahmane Ouldgouail | Software Developer Portfolio",
+    "description": "Explore the portfolio of Abderrahmane Ouldgouail, a passionate software developer specializing in web applications. Featuring projects built with PHP, Laravel, JavaScript, and MySQL, this portfolio showcases clean, efficient code and user-centered solutions. Discover innovative projects and contact for collaboration opportunities.",
+    "og-description": "Discover the projects and skills of Abderrahmane Ouldgouail, a software developer specializing in web applications using PHP, Laravel, JavaScript, and MySQL.",
+    "preview-image": "/preview/en.png"
+  },
+  "ariaLabel": {
+    "mail": "Send me an email",
+    "phone": "Call me with phone",
+    "x": "View my X profile",
+    "github": "View my GitHub profile",
+    "linkedin": "Connect with me on LinkedIn"
+  }
+}

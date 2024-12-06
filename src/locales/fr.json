@@ -1,0 +1,62 @@
+{
+  "name": "Abderrahmane Ouldgouail",
+  "nav": {
+    "hero": "Accueil",
+    "portfolio": "Portfolio",
+    "blog": "Blog"
+  },
+  "home": {
+    "trusted": "De confiance",
+    "partner": "Partenaire",
+    "for": "Pour",
+    "your": "Votre",
+    "website": "Site web",
+    "develop": "Développer",
+    "cta": "Contactez-moi",
+    "tagline": "Votre prochaine grande idée ? Je la code, en renforçant votre entreprise avec des solutions web innovantes."
+  },
+  "skils": {
+    "header1": "Ma liste de",
+    "header2": "compétences",
+    "subheader": "Découvrez les compétences clés qui définissent mon expertise et ma passion pour la croissance continue et l'innovation."
+  },
+  "work": {
+    "header": "Mes réalisations",
+    "subheader": "Voici quelques exemples de mon travail.",
+    "cta": "Commencer un projet"
+  },
+  "about": {
+    "header": "À propos",
+    "subheader": "Passionné par la création d'expériences numériques significatives grâce aux technologies web et mobiles de pointe.",
+    "content1": "Je suis un développeur web full-stack expérimenté, spécialisé dans la création de sites web dynamiques et conviviaux ainsi que d'applications mobiles. Je m'épanouis en transformant des idées en expériences numériques fonctionnelles.",
+    "content2": "J'aime concevoir des solutions qui ont un impact, qu'il s'agisse d'aider les entreprises à se développer ou d'améliorer les expériences des utilisateurs. Mon objectif est de concevoir et développer des outils à la fois pratiques et inspirants.",
+    "content3": "Quand je ne code pas, je me plonge dans de nouvelles technologies ou perfectionne mes compétences."
+  },
+  "contact": {
+    "header": "Contactez-moi",
+    "subheader": "N'hésitez pas à me contacter pour discuter de votre projet, poser une question ou simplement dire bonjour. Je serais ravi de vous entendre !",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Votre Email",
+      "message": "Votre Message",
+      "sendMessage": "Envoyer le message",
+      "success": "Votre message a été envoyé avec succès. Nous vous répondrons sous peu !",
+      "error": "Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer plus tard."
+    }
+  },
+  "footer": "Tous droits réservés.",
+  "toggleTheme": "Changer le thème",
+  "metadata": {
+    "title": "Abderrahmane Ouldgouail | Portfolio de Développeur Logiciel",
+    "description": "Découvrez le portfolio d'Abderrahmane Ouldgouail, un développeur logiciel passionné spécialisé dans les applications web. Présentant des projets réalisés avec PHP, Laravel, JavaScript et MySQL, ce portfolio met en avant un code propre et efficace, ainsi que des solutions centrées sur l'utilisateur. Découvrez des projets innovants et contactez pour des opportunités de collaboration.",
+    "og-description": "Découvrez les projets et compétences d'Abderrahmane Ouldgouail, un développeur logiciel spécialisé dans les applications web utilisant PHP, Laravel, JavaScript et MySQL.",
+    "preview-image": "/preview/fr.png"
+  },
+  "ariaLabel": {
+    "mail": "Envoyez-moi un email",
+    "phone": "Appelez-moi par téléphone",
+    "x": "Voir mon profil X",
+    "github": "Voir mon profil GitHub",
+    "linkedin": "Connectez-vous avec moi sur LinkedIn"
+  }
+}
