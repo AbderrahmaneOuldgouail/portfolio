@@ -20,6 +20,9 @@ export default function Skils() {
     { name: "inertiajs", icon: "inertiajs", level: 4 },
   ];
   const techs = [
+    "react",
+    "laravel",
+    "tailwind",
     "typescript",
     "npm",
     "vite",
@@ -28,9 +31,6 @@ export default function Skils() {
     "redis",
     "docker",
     "git",
-    "github",
-    "nodejs",
-    "flutter",
   ];
   return (
     <section className="h-screen-h ">
