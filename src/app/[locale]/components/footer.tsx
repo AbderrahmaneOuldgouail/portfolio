@@ -4,7 +4,7 @@ export default function Footer() {
   const t = useTranslations();
 
   return (
-    <footer className="bg-muted">
+    <footer className="bg-accent">
       <div className="container mx-auto px-4 py-8 text-center">
         <p>
           &copy; {new Date().getFullYear()} {t("name")}. {t("footer")}

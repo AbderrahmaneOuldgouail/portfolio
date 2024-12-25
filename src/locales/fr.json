@@ -18,7 +18,15 @@
   "skils": {
     "header1": "Ma liste de",
     "header2": "compétences",
-    "subheader": "Découvrez les compétences clés qui définissent mon expertise et ma passion pour la croissance continue et l'innovation."
+    "subheader": "Découvrez les compétences clés qui définissent mon expertise et ma passion pour la croissance continue et l'innovation.",
+    "language": "Langage",
+    "languageSub": "Langages de programmation que je maîtrise",
+    "frontend": "Technologies Frontend",
+    "frontendSub": "Outils et frameworks que j'utilise pour le développement frontend",
+    "backend": "Technologies Backend",
+    "backendSub": "Outils et frameworks que j'utilise pour le développement backend",
+    "tools": "Autres Technologies",
+    "toolsSub": "Outils et technologies supplémentaires avec lesquels j'ai de l'expérience"
   },
   "work": {
     "header": "Mes réalisations",
@@ -42,6 +50,13 @@
       "sendMessage": "Envoyer le message",
       "success": "Votre message a été envoyé avec succès. Nous vous répondrons sous peu !",
       "error": "Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer plus tard."
+    },
+    "ariaLabel": {
+      "mail": "Envoyez-moi un email",
+      "phone": "Appelez-moi par téléphone",
+      "x": "Voir mon profil X",
+      "github": "Voir mon profil GitHub",
+      "linkedin": "Connectez-vous avec moi sur LinkedIn"
     }
   },
   "footer": "Tous droits réservés.",

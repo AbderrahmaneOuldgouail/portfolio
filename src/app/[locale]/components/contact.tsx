@@ -71,7 +71,7 @@ export default function Contact() {
           </a>
           <a
             href={process.env.GITHUB_URL}
-            aria-label={t("ariaLabel.gihub")}
+            aria-label={t("ariaLabel.github")}
             className="flex w-fit gap-2 border-l-2 hover:border-primary hover:text-primary px-4 transition-all duration-300 ease-in-out"
           >
             <Github className="w-6 h-6" />
