@@ -25,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
     creator: "Abderrahmane Ouldgouail",
     robots: "index, follow",
     openGraph: {
-      siteName: "Abderrahmane Ouldgouail Portfolio's",
+      siteName: "Abderrahmane Ouldgouail Portfolio",
       title: t("title"),
       description: t("og-description"),
       type: "website",

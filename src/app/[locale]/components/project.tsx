@@ -18,7 +18,7 @@ import {
 } from "@/components/ui/carousel";
 import React from "react";
 
-export default function Projects() {
+export default function Project() {
   const t = useTranslations("work");
 
   return (
@@ -65,7 +65,7 @@ function ProjectSlider() {
   const t = useTranslations("work");
 
   return (
-    <>
+    <div className="md:m-16">
       <Carousel
         opts={{
           align: "start",
@@ -115,6 +115,6 @@ function ProjectSlider() {
         <CarouselNext className="top-full left-2/3 translate-y-full" />
         <CarouselPrevious className="top-full left-1/3 translate-y-full" />
       </Carousel>
-    </>
+    </div>
   );
 }
