@@ -77,7 +77,7 @@ export function ContactMeForm({
   };
 
   return (
-    <Card className="h-full w-1/2 bg-foreground">
+    <Card className="h-full md:w-1/2 w-full bg-foreground">
       <CardHeader className="h-full">
         <form onSubmit={submitHandler} className="space-y-4">
           <div className="flex items-center gap-2 border-b focus-within:border-primary transition-all duration-200 ease-linear">
@@ -102,14 +102,14 @@ export function ContactMeForm({
           </div>
           <Textarea
             name="message"
-            className="h-full"
+            className="md:h-full h-fit"
             onChange={handleChange}
             placeholder={trans.message}
           />
           <div className="flex justify-end">
-          <Button type="submit" disabled={isLoading}>
-            {trans.sendMessage}
-          </Button>
+            <Button type="submit" disabled={isLoading}>
+              {trans.sendMessage}
+            </Button>
           </div>
         </form>
       </CardHeader>

@@ -31,7 +31,8 @@
   "work" : {
     "header" : "My work",
     "subheader" : "Here are a few examples of my work.",
-    "cta" : "Start a project"
+    "cta" : "Start a project",
+    "show" : "View Project"
   },
   "about" : {
     "header" : "About", 
@@ -66,6 +67,16 @@
     "description": "Explore the portfolio of Abderrahmane Ouldgouail, a passionate software developer specializing in web applications. Featuring projects built with PHP, Laravel, JavaScript, and MySQL, this portfolio showcases clean, efficient code and user-centered solutions. Discover innovative projects and contact for collaboration opportunities.",
     "og-description": "Discover the projects and skills of Abderrahmane Ouldgouail, a software developer specializing in web applications using PHP, Laravel, JavaScript, and MySQL.",
     "preview-image": "/preview/en.png"
+  },
+  "projects" : {
+    "hotel-sidielnoui" : {
+      "name" : "Hotel Sidi El Noui",
+      "description" : "hotel descreption"
+    },
+    "event-plus" : {
+      "name" : "Event booking app",
+      "description" : "Event plus descreption"
+    }
   },
   "ariaLabel": {
     "mail": "Send me an email",

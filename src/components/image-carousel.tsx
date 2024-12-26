@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
-import Image from "next/image";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import {
   Carousel,
@@ -12,9 +11,10 @@ import {
 } from "@/components/ui/carousel";
 import { ZoomIn, ZoomOut, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image, { StaticImageData } from "next/image";
 
 interface ImageData {
-  src: string;
+  src: StaticImageData;
   alt: string;
   title?: string;
   description?: string;

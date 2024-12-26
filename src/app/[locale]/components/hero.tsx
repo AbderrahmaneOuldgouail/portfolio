@@ -11,7 +11,7 @@ export default function Hero() {
       className="h-screen-h px-8 py-16 flex flex-col sm:gap-20 md:gap-8 relative"
     >
       <div className="absolute h-1/3 w-1/2 -top-10 rotate-12  z-[-2] inset-0 bg-gradient-to-r from-primary from-10% via-primary via-30% to-secondary to-90% blur-2xl opacity-70"></div>
-      <div className="absolute h-1/2 w-11/12 top-60 left-10 -rotate-12  z-[-2] inset-0 bg-gradient-to-r from-secondary from-10% via-secondary via-30% to-secondary to-70% blur-3xl opacity-60"></div>
+      <div className="absolute h-1/2 w-11/12 top-60 -left-10 -rotate-12  z-[-2] inset-0 bg-gradient-to-r from-secondary from-10% via-secondary via-30% to-secondary to-70% blur-3xl opacity-60"></div>
       <div className="flex items-center flex-col sm:flex-row gap-4">
         <div className="rounded-full w-1/2 md:w-1/4 ">
           <img
@@ -44,7 +44,7 @@ export default function Hero() {
             className="hover:bg-[#181717] group hover:text-background  duration-200 transition-transform ease-in-out size-8 flex justify-center items-center rounded-lg"
           >
             <Github className="group-hover:-rotate-12 duration-200 transition-transform ease-in-out" />
-            <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-foreground group-hover:text-sm group-hover:translate-x-32 duration-300">
+            <span className="absolute z-[-10] group-hover:z-10 opacity-0 group-hover:opacity-100 group-hover:text-foreground group-hover:text-sm group-hover:translate-x-32 duration-300">
               @AbderrahmaneOuldgouail
             </span>
           </a>
@@ -54,7 +54,7 @@ export default function Hero() {
             className="hover:bg-[#EA4335] group hover:text-background  duration-200 transition-transform ease-in-out size-8 flex justify-center items-center rounded-lg"
           >
             <Mail className="group-hover:-rotate-12 duration-200 transition-transform ease-in-out" />
-            <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-foreground group-hover:text-sm group-hover:translate-x-40 duration-300">
+            <span className="absolute z-[-10] group-hover:z-10 opacity-0 group-hover:opacity-100 group-hover:text-foreground group-hover:text-sm group-hover:translate-x-40 duration-300">
               {process.env.EMAIL_ADDRESS}
             </span>
           </a>
@@ -64,7 +64,7 @@ export default function Hero() {
             className="hover:bg-[#0A66C2] group hover:text-background  duration-200 transition-transform ease-in-out size-8 flex justify-center items-center rounded-lg"
           >
             <Linkedin className="group-hover:-rotate-12 duration-200 transition-transform ease-in-out" />
-            <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-foreground group-hover:text-sm group-hover:translate-x-24 duration-300">
+            <span className="absolute z-[-10] group-hover:z-10 opacity-0 group-hover:opacity-100 group-hover:text-foreground group-hover:text-sm group-hover:translate-x-24 duration-300">
               @abderrahmane-ouldgouail
             </span>
           </a>
@@ -83,7 +83,7 @@ export default function Hero() {
               <title>X</title>
               <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
             </svg>
-            <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-foreground group-hover:text-sm group-hover:translate-x-24 duration-300">
+            <span className="absolute z-[-10] group-hover:z-10 opacity-0 group-hover:opacity-100 group-hover:text-foreground group-hover:text-sm group-hover:translate-x-24 duration-300">
               @Abdououldgouail
             </span>
           </a>
