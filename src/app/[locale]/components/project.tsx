@@ -17,6 +17,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import React from "react";
+import { Router } from "next/router";
 
 export default function Project() {
   const t = useTranslations("work");
@@ -40,16 +41,18 @@ export default function Project() {
         </g>
       </svg>
       <div className="absolute h-1/3 w-1/3 left-1/2 -top-32 rotate-45 rounded-b-full z-[-2] inset-0 bg-gradient-to-r from-primary from-10% via-primary via-30% to-secondary to-90% blur-2xl opacity-60"></div>
-      <div className="flex flex-col sm:flex-row items-center gap-4 px-10 justify-between mb-6">
+      <div className="flex flex-col sm:flex-row items-center gap-4 px-10 justify-between sm:my-6 ">
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold w-full sm:w-1/2 lg:w-1/3 text-nowrap">
           {t("header")}{" "}
         </h2>
-        <p className=" w-full sm:w-1/2 lg:w-1/3 text-xs sm:text-base border-b border-foreground h-fit pb-2 ">
+        <p className=" w-full sm:w-1/2 lg:w-1/3 text-xs sm:text-base border-b border-foreground pb-2 ">
           {t("subheader")}
         </p>
       </div>
-      <ProjectSlider />
-      <div className="my-10 mx-auto">
+      <div className="md:flex justify-center ">
+        <ProjectSlider />
+      </div>
+      <div className="my-10 mx-auto ">
         <button className="group flex relative border-2 rounded-full border-primary items-center px-6 py-3 transition-all duration-200 ease-in-out cursor-pointer before:content-[''] before:absolute before:top-0 before:left-0 before:rounded-full before:bg-primary before:transition-all before:duration-300 before:size-12 before:hover:w-full">
           <span className="relative group-hover:text-background transition-all duration-200 ease-linear font-bold tracking-wider">
             {t("cta")}
@@ -65,7 +68,7 @@ function ProjectSlider() {
   const t = useTranslations("work");
 
   return (
-    <div className="md:m-16">
+    <div className="md:w-11/12 ">
       <Carousel
         opts={{
           align: "start",
@@ -98,14 +101,55 @@ function ProjectSlider() {
                     </h3>
                   </CardHeader>
                   <CardContent>
-                    <p className="sm:text-sm text-xs">
+                    <p className="sm:text-base text-sm">
                       {tProjects(`${item.slug}.description`)}{" "}
                     </p>
                   </CardContent>
                 </div>
-                <CardFooter className="justify-end">
+                <CardFooter className="justify-end gap-4">
+                  {item.live ? (
+                    <a href={item.live} target="blank">
+                      <Button
+                        className="hover:opacity-85 bg-secondary text-xs sm:text-sm"
+                        size="sm"
+                      >
+                        {t("live")}
+                      </Button>
+                    </a>
+                  ) : (
+                    <Button
+                      className="bg-secondary text-xs sm:text-sm"
+                      size="sm"
+                      disabled
+                    >
+                      {t("live")}
+                    </Button>
+                  )}
+                  {item.github ? (
+                    <a href={item.github} target="blank">
+                      <Button
+                        className="hover:opacity-85 bg-gray-700 text-xs sm:text-sm"
+                        size="sm"
+                      >
+                        GitHub
+                      </Button>
+                    </a>
+                  ) : (
+                    <Button
+                      className="bg-gray-700 text-xs sm:text-sm"
+                      size="sm"
+                      disabled
+                    >
+                      GitHub
+                    </Button>
+                  )}
                   <Link href={`/projects/${item.slug}`} passHref>
-                    <Button className="hover:opacity-85">{t("show")}</Button>
+                    <Button
+                      className="hover:opacity-85 text-xs sm:text-sm"
+                      size="sm"
+                    >
+                      {t("show")}
+                    </Button>
                   </Link>
                 </CardFooter>
               </Card>

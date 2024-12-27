@@ -6,21 +6,21 @@
     "blog": "Blog"
   },
   "home": {
-    "trusted": "De confiance",
-    "partner": "Partenaire",
+    "trusted": "Partenaire",
+    "partner": "de confiance",
     "for": "Pour",
     "your": "Votre",
     "website": "Site web",
-    "develop": "Développer",
+    "develop": "développement",
     "cta": "Contactez-moi",
     "tagline": "Votre prochaine grande idée ? Je la code, en renforçant votre entreprise avec des solutions web innovantes."
   },
   "skils": {
-    "header1": "Ma liste de",
+    "header1": "Ma liste des",
     "header2": "compétences",
     "subheader": "Découvrez les compétences clés qui définissent mon expertise et ma passion pour la croissance continue et l'innovation.",
     "language": "Langage",
-    "languageSub": "Langages de programmation que je maîtrise",
+    "languageSub": "Langages de programmations que je maîtrise",
     "frontend": "Technologies Frontend",
     "frontendSub": "Outils et frameworks que j'utilise pour le développement frontend",
     "backend": "Technologies Backend",
@@ -29,9 +29,11 @@
     "toolsSub": "Outils et technologies supplémentaires avec lesquels j'ai de l'expérience"
   },
   "work": {
-    "header": "Mes réalisations",
+    "header": "Mes Réalisations",
     "subheader": "Voici quelques exemples de mon travail.",
-    "cta": "Commencer un projet"
+    "cta": "Commencer un projet",
+    "show" : "View Project",
+    "live" : "Live Demo"
   },
   "about": {
     "header": "À propos",
@@ -67,6 +69,16 @@
     "og-description": "Découvrez les projets et compétences d'Abderrahmane Ouldgouail, un développeur logiciel spécialisé dans les applications web utilisant PHP, Laravel, JavaScript et MySQL.",
     "preview-image": "/preview/fr.png"
   },
+  "projects" : {
+    "hotel-sidielnoui" : {
+      "name" : "Hotel Sidi El Noui",
+      "description" : "Le système de gestion de l'hôtel Sidi El Noui est une application web conçue pour rationaliser les opérations de l'hôtel, en mettant particulièrement l'accent sur les réservations de chambres en ligne, la gestion des clients et des processus backend efficaces. Il permet au personnel comme aux clients de gérer et de suivre les réservations de manière efficace."
+    },
+    "event-plus" : {
+      "name" : "Event booking app",
+      "description" : "Event plus descreption"
+    }
+},
   "ariaLabel": {
     "mail": "Envoyez-moi un email",
     "phone": "Appelez-moi par téléphone",

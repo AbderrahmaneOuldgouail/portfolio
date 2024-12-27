@@ -13,7 +13,11 @@ export default function Navbar() {
     <header className="sticky top-0 z-10 backdrop-blur-sm bg-background/60  ">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <span className="flex gap-2 justify-center items-center">
-          <h1 className="text-2xl font-bold">{t("name")}</h1>
+          <h1 className="text-2xl font-bold">
+            <Link href="/#hero" className="hover:text-primary font-bold">
+              {t("name")}
+            </Link>
+          </h1>
         </span>
         <nav className="hidden md:flex items-center space-x-4">
           <ul className="flex gap-4 rtl:me-4">

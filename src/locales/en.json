@@ -32,7 +32,8 @@
     "header" : "My work",
     "subheader" : "Here are a few examples of my work.",
     "cta" : "Start a project",
-    "show" : "View Project"
+    "show" : "View Project",
+    "live" : "Live Demo"
   },
   "about" : {
     "header" : "About", 
@@ -72,7 +73,7 @@
   "projects" : {
     "hotel-sidielnoui" : {
       "name" : "Hotel Sidi El Noui",
-      "description" : "hotel descreption"
+      "description" : "The Hotel Sidi El Noui Management System is a web-based application designed to streamline hotel operations, especially focusing on online room bookings, customer management, and efficient backend processes. It enables both staff and customers to manage and monitor reservations effectively."
     },
     "event-plus" : {
       "name" : "Event booking app",

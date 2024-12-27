@@ -1,5 +1,10 @@
 import { ImageCarouselComponent } from "@/components/image-carousel";
-import img from "./assets/img.png";
+
+import admin_chambres from "./assets/admin_chambres.jpg";
+import admin_messages from "./assets/admin_messages.jpg";
+import admin_role_creation from "./assets/admin_role_creation.jpg";
+import booking from "./assets/booking.jpg";
+import home_fr from "./assets/home_fr.jpg";
 
 
 
@@ -45,32 +50,39 @@ Managing events and promotions, show aviable promotion and incoming events, Stat
 
 <ImageCarouselComponent images={[
   {
-    src: img,
-    alt: "img 1",
-    title: "image 1",
+    src: admin_chambres,
+    alt: "Room list",
+    title: "Room List",
     description:
-      "A img 1 showing adaptability to different aspect ratios.",
+      "Room list showing data related to rooms with ability to show and edit room",
   },
   {
-    src: img,
-    alt: "ima 2",
-    title: "image 2",
+    src: admin_messages,
+    alt: "inbox",
+    title: "Inbox",
     description:
-      "A img 2 showing adaptability to different aspect ratios.",
+      "Inbox page where admin recive messages, Reply and make message as read",
   },
   {
-    src: img,
-    alt: "img 3",
-    title: "image 3",
+    src: admin_role_creation,
+    alt: "Role creation",
+    title: "Role Creation",
     description:
-      "A img 3 showing adaptability to different aspect ratios.",
+      "Role creation form let the user who have the permission to create roles and assign permissions to it",
   },
   {
-    src: img,
-    alt: "img 4",
-    title: "image 4",
+    src: booking,
+    alt: "Bookings",
+    title: "Booking Page",
     description:
-      "A img 4 showing adaptability to different aspect ratios.",
+      "The booking page for clients where they can check the booking details",
+  },
+  {
+    src: home_fr,
+    alt: "Home page",
+    title: "Home Page",
+    description:
+      "The Home page where we find hotel informations, room availability, services, promotion and let clients to make bookings ",
   },
 ]} />
  

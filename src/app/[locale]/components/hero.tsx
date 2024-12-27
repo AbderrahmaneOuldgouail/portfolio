@@ -22,14 +22,14 @@ export default function Hero() {
         <div className="w-full sm:w-2/3 text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl scroll-m-20 font-extrabold tracking-tight leading-relaxed mb-10 font-serif ">
           <div className="flex flex-nowrap gap-2 pb-3">
             {t("trusted")}{" "}
-            <span className="bg-foreground text-background rounded-lg px-2 pb-4 ">
+            <span className="bg-foreground text-background rounded-lg px-2 pb-4 text-nowrap">
               {t("partner")}
             </span>{" "}
             {t("for")}
           </div>
           <div className="flex flex-nowrap gap-2">
             {t("your")}{" "}
-            <span className="bg-foreground text-background rounded-lg px-2 pb-4 ">
+            <span className="bg-foreground text-background rounded-lg px-2 pb-4 text-nowrap">
               {t("website")}
             </span>{" "}
             {t("develop")}
