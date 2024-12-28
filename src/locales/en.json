@@ -78,6 +78,10 @@
     "event-plus" : {
       "name" : "Event booking app",
       "description" : "Event plus descreption"
+    },
+    "soltanat-eldjamal" : {
+      "name" : "Soltanat El Djamal",
+      "description" : "The Soltanat El Djamal website is a sleek and straightforward one-page site designed to present the agency's services and make it easy for potential customers to get in touch. The site is complemented by individual MDX pages for each service, providing detailed descriptions of the Hajj and Umrah packages."
     }
   },
   "ariaLabel": {

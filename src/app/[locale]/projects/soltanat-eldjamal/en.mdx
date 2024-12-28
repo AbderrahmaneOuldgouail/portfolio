@@ -1,0 +1,64 @@
+import { ImageCarouselComponent } from "@/components/image-carousel";
+
+import home_section from "./assets/home_section.jpg";
+import services_section from "./assets/services_section.jpg";
+import contact_section from "./assets/contact_section.jpg";
+
+## Soltanat El Djamal - Travel Agency Website
+
+**Client:** Soltanat El Djamal  
+**Type:** Business Website  
+**Technologies:** Next.js, Tailwind CSS, MDX, EmailJS  
+
+The **Soltanat El Djamal** website is a sleek and straightforward one-page site designed to present the agency’s services and make it easy for potential customers to get in touch. The site is complemented by individual MDX pages for each service, providing detailed descriptions of the Hajj and Umrah packages.  
+
+---
+
+**Key Features:**  
+
+1. **Home Section:**  
+   A welcoming hero section featuring the agency’s branding, tagline, and a brief overview of the services offered.  
+
+2. **About Section:**  
+   A concise introduction to the agency, detailing its mission, vision, and commitment to providing high-quality services.  
+
+3. **Services Section:**  
+   Highlights the key services offered, including Hajj and Umrah packages, presented with visually appealing cards linking to detailed MDX pages.  
+
+4. **Contact Section:**  
+   A contact form integrated with EmailJS for customers to send inquiries directly to the agency’s email.  
+   - Includes agency contact details like phone number, email, and physical address.  
+
+5. **Service Pages (MDX):**  
+   Each service (Hajj, Umrah, etc.) is presented on a separate page using MDX for structured and customizable content.  
+
+6. **Responsive Design:**  
+   Fully optimized for desktop, tablet, and mobile devices.  
+
+---
+
+**Project Screenshots:**  
+
+<ImageCarouselComponent images={[
+  {
+    src: home_section,
+    alt: "Home Section",
+    title: "Home Section",
+    description:
+      "The hero section introducing the agency with a brief overview of its services and a call-to-action button.",
+  },
+  {
+    src: services_section,
+    alt: "Services Section",
+    title: "Services Section",
+    description:
+      "A showcase of the agency's Hajj and Umrah services, with links to detailed pages for each offering.",
+  },
+  {
+    src: contact_section,
+    alt: "Contact Section",
+    title: "Contact Section",
+    description:
+      "A contact form powered by EmailJS, allowing customers to send inquiries directly from the website.",
+  },
+]} />

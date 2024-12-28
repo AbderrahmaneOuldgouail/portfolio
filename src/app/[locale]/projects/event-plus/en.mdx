@@ -1,2 +1,85 @@
+import { ImageCarouselComponent } from "@/components/image-carousel";
 
-**Project name :** Event Plus
+import home_screen from "./assets/home_screen.jpg";
+import event_screen from "./assets/event_screen.jpg";
+import booking_page from "./assets/booking_page.jpg";
+import preference_screen from "./assets/preference_screen.jpg";
+import profile_screen from "./assets/profile_screen.jpg";
+
+## EventPlus - Mobile Event Booking Application
+
+**Client:** Internal Project  
+**Type:** Mobile Application  
+**Technologies:** React Native, Expo, Laravel, MySQL  
+
+The **EventPlus App** is a mobile-first application designed to simplify event organization and attendance. It enables organizers to create and manage events efficiently while providing attendees with an intuitive platform to book and manage their tickets. The app also includes modern features like QR code scanning and NFC-based check-ins.  
+
+---
+
+**Key Features:**  
+
+1. **Event Listings:**  
+   A dedicated section for browsing available events with filters for category, date, and location.
+
+2. **Ticket Booking System:**  
+   Secure ticket booking with support for online payments. Users can view their booked tickets directly in the app.
+
+3. **QR Code Ticketing:**  
+   Generate and scan QR codes for event tickets, enabling a paperless check-in experience.
+
+4. **NFC Check-in System:**  
+   Supports NFC-based check-ins, allowing attendees to simply tap their devices to gain entry to events.
+
+5. **Push Notifications:**  
+   Real-time updates for event reminders, ticket status, and special promotions.
+
+6. **User Profiles:**  
+   Personalized profiles for attendees to track their bookings, payment history, and event preferences.
+
+7. **Multi-Language Support:**  
+   Localization to accommodate a diverse user base.
+
+8. **Admin Panel:**  
+   An admin panel for event organizers to manage event details, view attendee lists, and monitor ticket sales.
+
+---
+
+**Project Screenshots:**  
+
+<ImageCarouselComponent images={[
+  {
+    src: home_screen,
+    alt: "Home Screen",
+    title: "Home Screen",
+    description:
+      "The landing page of the app showcasing featured events and easy navigation to event categories.",
+  },
+  {
+    src: event_screen,
+    alt: "Event screen",
+    title: "Event screen",
+    description:
+      "The event screen showing event details, localisation, review and more, alow users to book event throgh.",
+  },
+  {
+    src: booking_page,
+    alt: "Booking Page",
+    title: "Booking Page",
+    description:
+      "The ticket booking page where users can select their preferred seats and make payments securely.",
+  },
+  {
+    src: preference_screen,
+    alt: "Preferences Screen",
+    title: "Preferences Screen",
+    description:
+      "The preferences screen allowing users to select there intrests.",
+  },
+  {
+    src: profile_screen,
+    alt: "Profile Screen",
+    title: "Profile Screen",
+    description:
+      "A profile to let users change personnal informations and password.",
+  },
+]} />
