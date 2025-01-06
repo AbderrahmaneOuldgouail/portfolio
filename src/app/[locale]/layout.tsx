@@ -54,10 +54,7 @@ export default function RootLayout({
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <head>
-        <meta
-          name="google-site-verification"
-          content="yOZjx0tfJnSMoBstTi-z9hjnbeuy3EwSmWCT--g5Axg"
-        />
+        <meta name="google-site-verification" content="vnP_U4nkW-gZqsfayXXTqNFazn3a-kQOGtLPZF1mctk" />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
           rel="stylesheet"
