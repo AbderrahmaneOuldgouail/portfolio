@@ -24,7 +24,7 @@ export default function About() {
           ></path>
         </g>
       </svg>
-      <Card className="h-full bg-foreground rounded-3xl">
+      <Card className="h-full bg-foreground rounded-3xl lg:px-20 sm:px-16 px-8">
         <CardHeader className="text-background flex sm:flex-row flex-col  justify-between">
           <div className="text-2xl md:text-4xl lg:text-5xl font-bold w-full sm:w-1/2 lg:w-1/3 text-nowrap">
             {t("header")}

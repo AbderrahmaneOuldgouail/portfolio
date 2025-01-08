@@ -17,7 +17,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import React from "react";
-import { Router } from "next/router";
 
 export default function Project() {
   const t = useTranslations("work");
@@ -25,7 +24,7 @@ export default function Project() {
   return (
     <section
       id="projects"
-      className="h-screen-h flex flex-col justify-around relative"
+      className="h-screen-h flex flex-col justify-around relative lg:px-20 sm:px-16 px-8"
     >
       <svg
         id="visual"
@@ -81,16 +80,11 @@ function ProjectSlider() {
               className="flex items-center sm:flex-row flex-col gap-4 w-2/3 px-2"
               key={item.slug}
             >
-              <div className="sm:w-1/3 w-1/2 sm:flex-col flex items-center justify-center px-1 gap-2 rounded-lg">
+              <div className="sm:w-1/3 w-full sm:flex-col flex items-center justify-center px-1 gap-2 rounded-lg">
                 <Image
                   src={item.img1}
                   alt={`image 1 ${item.slug}`}
-                  className="rounded-lg -rotate-6 "
-                />
-                <Image
-                  src={item.img2}
-                  alt={`image 2 ${item.slug}`}
-                  className="rounded-lg rotate-3"
+                  className="rounded-lg  "
                 />
               </div>
               <Card className="sm:w-2/3 w-full h-full bg-foreground text-background flex flex-col justify-between">
@@ -101,7 +95,7 @@ function ProjectSlider() {
                     </h3>
                   </CardHeader>
                   <CardContent>
-                    <p className="sm:text-base text-sm">
+                    <p className="sm:text-base text-xs">
                       {tProjects(`${item.slug}.description`)}{" "}
                     </p>
                   </CardContent>

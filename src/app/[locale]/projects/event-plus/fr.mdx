@@ -1,1 +1,85 @@
-**Project name :** Event Plus
+import { ImageCarouselComponent } from "@/components/image-carousel";
+
+import home_screen from "./assets/home_screen.jpg";
+import event_screen from "./assets/event_screen.jpg";
+import booking_page from "./assets/booking_page.jpg";
+import preference_screen from "./assets/preference_screen.jpg";
+import profile_screen from "./assets/profile_screen.jpg";
+
+## EventPlus - Mobile Event Booking Application
+
+**Client:** Projet Interne  
+**Type:** Application Mobile  
+**Technologies:** React Native, Expo, Laravel, MySQL  
+
+L'application **EventPlus** est une solution mobile conçue pour simplifier l'organisation et la participation aux événements. Elle permet aux organisateurs de créer et de gérer efficacement leurs événements tout en offrant aux participants une plateforme intuitive pour réserver et gérer leurs billets. L'application intègre également des fonctionnalités modernes comme le scan de QR codes et les check-ins basés sur la technologie NFC.
+---
+
+**Key Features:**  
+
+1. **Liste des Événements :**  
+   Une section dédiée pour parcourir les événements disponibles avec des filtres par catégorie, date et localisation.
+
+2. **Système de Réservation de Billets :**  
+   Réservation de billets sécurisée avec prise en charge des paiements en ligne. Les utilisateurs peuvent consulter leurs billets réservés directement dans l'application.
+
+3. **Billetterie par QR Code :**  
+   Génération et scan de QR codes pour les billets, permettant une expérience de check-in sans papier.
+
+4. **Système de Check-in NFC :**  
+   Supporte les check-ins basés sur la technologie NFC, permettant aux participants d'accéder aux événements en tapant simplement leurs appareils.
+
+5. **Notifications Push :**  
+   Mises à jour en temps réel pour les rappels d'événements, le statut des billets et les promotions spéciales.
+
+6. **Profils Utilisateurs :**  
+   Profils personnalisés pour les participants afin de suivre leurs réservations, l'historique des paiements et leurs préférences d'événements.
+
+7. **Support Multilingue :**  
+   Localisation pour répondre à une base d'utilisateurs diversifiée.  
+
+8. **Panneau Administrateur :**  
+   Un panneau administrateur permettant aux organisateurs de gérer les détails des événements, de consulter les listes des participants et de surveiller les ventes de billets.
+
+---
+
+**Project Screenshots:**  
+
+<ImageCarouselComponent images={[
+  {
+    src: home_screen,
+    alt: "Écran d'accueil",
+    title: "Écran d'accueil",
+    description:
+      "La page d'accueil de l'application présentant les événements en vedette et une navigation facile vers les catégories d'événements.",
+  },
+  {
+    src: event_screen,
+    alt: "Écran d'événement",
+    title: "Écran d'événement",
+    description:
+      "L'écran de l'événement affichant les détails de l'événement, la localisation, les avis et plus encore, permettant aux utilisateurs de réserver des événements.",
+  },
+  {
+    src: booking_page,
+    alt: "Page de réservation",
+    title: "Page de réservation",
+    description:
+      "La page de réservation de billets où les utilisateurs peuvent sélectionner leurs sièges préférés et effectuer des paiements en toute sécurité.",
+  },
+  {
+    src: preference_screen,
+    alt: "Écran des préférences",
+    title: "Écran des préférences",
+    description:
+      "L'écran des préférences permettant aux utilisateurs de sélectionner leurs centres d'intérêt.",
+  },
+  {
+    src: profile_screen,
+    alt: "Écran du profil",
+    title: "Écran du profil",
+    description:
+      "Un profil permettant aux utilisateurs de modifier leurs informations personnelles et leur mot de passe.",
+  },
+]} />
+

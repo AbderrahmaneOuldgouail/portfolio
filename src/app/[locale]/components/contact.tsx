@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-16 md:h-screen-h flex flex-col gap-8 relative"
+      className="py-16 md:h-screen-h flex flex-col gap-8 relative lg:px-20 sm:px-16 px-8"
     >
       <svg
         id="visual"

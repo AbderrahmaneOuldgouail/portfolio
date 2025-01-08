@@ -112,7 +112,7 @@ export function ImageCarouselComponent({ images }: { images: ImageData[] }) {
     selectedImageIndex !== null ? images[selectedImageIndex] : null;
 
   return (
-    <div className="w-full mx-auto p-4">
+    <div className="w-4/5 mx-auto p-4">
       <Carousel className="w-full">
         <CarouselContent>
           {images.map((image, index) => (

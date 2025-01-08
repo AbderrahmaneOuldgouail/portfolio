@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="h-screen-h px-8 py-16 flex flex-col sm:gap-20 md:gap-8 relative"
+      className="h-screen-h lg:px-20 sm:px-16 px-8 py-16 flex flex-col sm:gap-20 md:gap-8 relative "
     >
       <div className="absolute h-1/3 w-1/2 -top-10 rotate-12  z-[-2] inset-0 bg-gradient-to-r from-primary from-10% via-primary via-30% to-secondary to-90% blur-2xl opacity-70"></div>
       <div className="absolute h-1/2 w-11/12 top-60 -left-10 -rotate-12  z-[-2] inset-0 bg-gradient-to-r from-secondary from-10% via-secondary via-30% to-secondary to-70% blur-3xl opacity-60"></div>

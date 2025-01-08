@@ -6,8 +6,8 @@ import { icons } from "@/lib/icons";
 export default function Skils() {
   const t = useTranslations("skils");
   return (
-    <section className="md:h-screen-h h-fit">
-      <Card className="h-full bg-foreground rounded-3xl">
+    <section className="md:min-h-screen-h h-fit ">
+      <Card className="h-full bg-foreground rounded-3xl lg:px-20 sm:px-16 px-8">
         <div className="space-y-1.5 p-3 sm:p-6 text-background px-10 flex flex-col sm:flex-row justify-between">
           <div className="text-2xl md:text-4xl lg:text-5xl font-bold w-full sm:w-1/2 lg:w-1/3 text-nowrap">
             {t("header1")}{" "}
