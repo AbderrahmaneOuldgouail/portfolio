@@ -77,11 +77,19 @@
     },
     "event-plus" : {
       "name" : "Event booking app",
-      "description" : "Event plus descreption"
+      "description" : "The EventPlus App is a mobile-first application designed to simplify event organization and attendance. It enables organizers to create and manage events efficiently while providing attendees with an intuitive platform to book and manage their tickets. The app also includes modern features like QR code scanning and NFC-based check-ins. "
     },
     "soltanat-eldjamal" : {
       "name" : "Soltanat El Djamal",
       "description" : "The Soltanat El Djamal website is a sleek and straightforward one-page site designed to present the agency's services and make it easy for potential customers to get in touch. The site is complemented by individual MDX pages for each service, providing detailed descriptions of the Hajj and Umrah packages."
+    },
+    "shose-store" : {
+      "name" : "Shose Store",
+      "description" : "Shose Store is a mobile application designed to client of the store where they can brows shose and make order in the app, also provide a website with the same feautres. Shose Store have also an admin panel to manage the shop by adding product, view orders ..."
+    },
+    "job-search" : {
+      "name" : "Job Search App",
+      "description" : "The Job-search app is a job discovery platform built with React Native and Expo Router. It integrates with RapidAPI's JSearch to provide data on popular and nearby jobs. Users can browse job listings, view job details, and navigate to external platforms to apply directly. The app's focus is on delivering a seamless experience for job seekers to explore opportunities and engage with recruitment platforms."
     }
   },
   "ariaLabel": {

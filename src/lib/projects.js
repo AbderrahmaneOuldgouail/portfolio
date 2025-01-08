@@ -1,9 +1,9 @@
 import image from "@/app/[locale]/projects/hotel-sidielnoui/assets/img.png";
 import hotel_img1 from "@/app/[locale]/projects/hotel-sidielnoui/assets/preview.png";
-
 import event_img1 from "@/app/[locale]/projects/event-plus/assets/preview.png";
-
-import agency_img1 from "@/app/[locale]/projects/soltanat-eldjamal/assets/preview.png";
+import soltanat_eldjamal_preview from "@/app/[locale]/projects/soltanat-eldjamal/assets/preview.png";
+import shose_store_preview from "@/app/[locale]/projects/shose-store/assets/preview.png";
+import job_search_preview from "@/app/[locale]/projects/job-search/assets/preview.png";
 
 export const projects = [
   {
@@ -14,7 +14,7 @@ export const projects = [
   },
   {
     slug: "event-plus",
-    github: "",
+    github: "https://github.com/duobix-software/mobile-app-eventplus",
     live: "",
     img1: event_img1,
   },
@@ -22,7 +22,20 @@ export const projects = [
     slug: "soltanat-eldjamal",
     github: "https://github.com/AbderrahmaneOuldgouail/soltanat-eldjamal",
     live: "https://soltanat-eldjamal.vercel.app/en",
-    img1: agency_img1,
+    img1: soltanat_eldjamal_preview,
+  },
+  {
+    slug: "shose-store",
+    github:
+      "https://github.com/AbderrahmaneOuldgouail/laravel-react-flutter-ecommerce-app",
+    live: "",
+    img1: shose_store_preview,
+  },
+  {
+    slug: "job-search",
+    github: "https://github.com/AbderrahmaneOuldgouail/Job-search",
+    live: "",
+    img1: job_search_preview,
   },
 ];
 
