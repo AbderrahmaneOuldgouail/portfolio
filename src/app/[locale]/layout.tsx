@@ -1,6 +1,7 @@
 import "../globals.css";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useLocale } from "next-intl";
 import Navbar from "@/app/[locale]/components/navbar";
 import Footer from "./components/footer";
@@ -54,7 +55,10 @@ export default function RootLayout({
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <head>
-        <meta name="google-site-verification" content="vnP_U4nkW-gZqsfayXXTqNFazn3a-kQOGtLPZF1mctk" />
+        <meta
+          name="google-site-verification"
+          content="vnP_U4nkW-gZqsfayXXTqNFazn3a-kQOGtLPZF1mctk"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
           rel="stylesheet"
@@ -84,6 +88,7 @@ export default function RootLayout({
         <Toaster richColors />
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
